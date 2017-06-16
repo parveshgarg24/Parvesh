@@ -1,0 +1,59 @@
+
+.project {
+	 display: -webkit-flex;
+    -webkit-flex-wrap: wrap; 
+    display: flex;   
+    flex-wrap: wrap;
+}
+
+h1 {
+	display: inline;
+    margin-left: .5em;
+    font-size: 40px;
+    color: #fff;
+    margin-left:20px;
+}
+
+button {
+	display: inline;
+	float :right; 
+	vertical-align: bottom;
+	padding :.5em;
+	margin-left: 10px;
+}
+
+#myimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 50%;
+	/*max-width :300px;*/
+}
+
+.project-images {
+	margin :5%;
+}
+
+.about-info p{
+     max-width: 70ch;
+	font-size :20px;
+}
+
+.about p {
+	text-align :center;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#project {
+	margin-left: 20px;
+}
+
+.work {
+	font-size: 15px;
+}
+.project-row {
+	margin-top: 20px;
+}

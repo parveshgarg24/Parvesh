@@ -1,0 +1,53 @@
+.inner-body {
+	background-color: #aaa;
+}
+
+body {
+	background-color: #666;
+}
+
+@media only screen and (min-width: 1024px) {
+
+	.inner-body {
+		display: block;
+		max-width :1024px;
+		margin :0 auto;
+      }
+
+    .about-info {
+    	padding-left :5%;
+    	padding-top :5%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .project-images {
+    	/*width :100%;*/
+    	margin :5px auto;
+    }
+
+    .projects .row {
+	   margin :10px 10px;
+    }
+
+    .about-info p{
+		padding-left: 10%;
+		padding-right:10%;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+
+	.about-info p{
+		padding-left: 15%;
+		padding-right:15%;
+	}
+
+	.project-images {
+		max-width: 700px;
+		display :block;
+		margin: 5% 10%;
+	}
+}
+
